@@ -10,8 +10,7 @@
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
-  --white-text-color: #ffffff;
-  --temporary-text-color: green;
+  --white-text-color: green;
 }
 body {
   color: var(--primary-text-color);
@@ -61,6 +60,10 @@ body {
 /*панель ссылок хедера*/
 .nav-link .link {
   color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .nav-link .link:hover,
 .nav-link .link:focus {
@@ -69,7 +72,7 @@ body {
 
 /*оглавление героя*/
 .hero .hero-title {
-  color: var(--temporary-text-color);
+  color: var(--white-text-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -84,13 +87,13 @@ body {
 
 .hero-button {
   background-color: var(--accent-color);
-  color: var(--white-text-color);
+  color: #ffffff;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
 }
 
-.work-list h2 {
+.work-list-section .title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -98,7 +101,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.skills h3 {
+.skills-list .skills-list-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -106,7 +109,7 @@ body {
   text-transform: uppercase;
 }
 
-.skills p {
+.skills-list .skills-list-paragraph {
   color: var(--secondary-text-color);
   font-weight: 400;
   font-size: 14px;
@@ -114,7 +117,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.team h2 {
+.team .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -122,13 +125,13 @@ body {
   letter-spacing: 0.03em;
 }
 
-.team .list h3 {
+.team-list .team-list-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
-.team .list p {
+.team-list .team-list-paragraph {
   color: var(--secondary-text-color);
   font-weight: 400;
   font-size: 16px;
@@ -138,12 +141,12 @@ body {
 
 /*назначение цвета первых букв логотипа снизу. Временно зелёный*/
 .logo-title .logo-letters-down {
-  color: var(--temporary-text-color);
+  color: var(--white-text-color);
 }
 
 /*назначение характеристик строке адреса*/
 .address-font p {
-  color: var(--temporary-text-color);
+  color: var(--white-text-color);
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -158,10 +161,10 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
   /*color: rgba(255, 255, 255, 0.6);*/
-  color: var(--temporary-text-color);
+  color: var(--white-text-color);
 }
 /*-------portfolio.html---------*/
-.portfolio-button-list .button {
+.filter-section-list .button {
   color: var(--primary-text-color);
   font-family: Roboto;
   font-style: normal;
@@ -171,25 +174,24 @@ body {
   letter-spacing: 0.03em;
 }
 
-.portfolio-button-list .button:hover,
-.portfolio-button-list .button:focus {
+.filter-section-list .button:hover,
+.filter-section-list .button:focus {
   background-color: var(--accent-color);
-  color: var(--white-text-color);
+  color: #ffffff;
 }
 
-.portfolio-button-list .button {
+.filter-section-list .button {
   cursor: pointer;
 }
 
-.filter-section h2 {
+.filter-section .potfolio-list-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.filter-section p {
-  font-weight: 400;
+.filter-section .potfolio-list-paragraph {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
